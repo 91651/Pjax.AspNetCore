@@ -1,7 +1,7 @@
 ﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
 @if (ViewBag.IsPjaxRequest ?? false)
 {
-    <title>@ViewBag.Title</title>
+    <title>@ViewData["Title"]</title>
     @RenderBody()
     @RenderSection("Scripts", false)
     return;
