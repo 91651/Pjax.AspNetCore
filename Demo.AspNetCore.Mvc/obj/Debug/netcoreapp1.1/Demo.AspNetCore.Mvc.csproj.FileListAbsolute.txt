@@ -1,0 +1,11 @@
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\bin\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.deps.json
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\bin\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.runtimeconfig.json
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\bin\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.runtimeconfig.dev.json
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\bin\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.dll
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\bin\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.pdb
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\bin\Debug\netcoreapp1.1\Pjax.AspNetCore.Mvc.dll
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\bin\Debug\netcoreapp1.1\Pjax.AspNetCore.Mvc.pdb
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\obj\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.csprojResolveAssemblyReference.cache
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\obj\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.AssemblyInfo.cs
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\obj\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.dll
+F:\Dev\PJAX\Demo.AspNetCore.Mvc\obj\Debug\netcoreapp1.1\Demo.AspNetCore.Mvc.pdb

@@ -1,0 +1,7 @@
+F:\Dev\PJAX\Pjax.AspNetCore.Mvc\bin\Debug\netstandard1.6\Pjax.AspNetCore.Mvc.deps.json
+F:\Dev\PJAX\Pjax.AspNetCore.Mvc\bin\Debug\netstandard1.6\Pjax.AspNetCore.Mvc.dll
+F:\Dev\PJAX\Pjax.AspNetCore.Mvc\bin\Debug\netstandard1.6\Pjax.AspNetCore.Mvc.pdb
+F:\Dev\PJAX\Pjax.AspNetCore.Mvc\obj\Debug\netstandard1.6\Pjax.AspNetCore.Mvc.csprojResolveAssemblyReference.cache
+F:\Dev\PJAX\Pjax.AspNetCore.Mvc\obj\Debug\netstandard1.6\Pjax.AspNetCore.Mvc.AssemblyInfo.cs
+F:\Dev\PJAX\Pjax.AspNetCore.Mvc\obj\Debug\netstandard1.6\Pjax.AspNetCore.Mvc.dll
+F:\Dev\PJAX\Pjax.AspNetCore.Mvc\obj\Debug\netstandard1.6\Pjax.AspNetCore.Mvc.pdb
