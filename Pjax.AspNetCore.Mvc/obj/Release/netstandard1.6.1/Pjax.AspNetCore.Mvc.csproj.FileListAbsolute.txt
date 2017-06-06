@@ -1,6 +1,0 @@
-F:\Dev\PJAX\Pjax.AspNetCore.Mvc\bin\Release\netstandard1.6.1\Pjax.AspNetCore.Mvc.deps.json
-F:\Dev\PJAX\Pjax.AspNetCore.Mvc\bin\Release\netstandard1.6.1\Pjax.AspNetCore.Mvc.dll
-F:\Dev\PJAX\Pjax.AspNetCore.Mvc\bin\Release\netstandard1.6.1\Pjax.AspNetCore.Mvc.pdb
-F:\Dev\PJAX\Pjax.AspNetCore.Mvc\obj\Release\netstandard1.6.1\Pjax.AspNetCore.Mvc.AssemblyInfo.cs
-F:\Dev\PJAX\Pjax.AspNetCore.Mvc\obj\Release\netstandard1.6.1\Pjax.AspNetCore.Mvc.dll
-F:\Dev\PJAX\Pjax.AspNetCore.Mvc\obj\Release\netstandard1.6.1\Pjax.AspNetCore.Mvc.pdb
