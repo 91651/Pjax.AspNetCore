@@ -1,10 +1,10 @@
 
-##Pjax.AspNetCore
+**Pjax.AspNetCore**
 
 Develop .net core application with Jquery.Pjax (https://github.com/defunkt/jquery-pjax).
 
 
-##Usage
+**Usage**
 
 * View Layout
 
@@ -39,14 +39,12 @@ Develop .net core application with Jquery.Pjax (https://github.com/defunkt/jquer
 
 ```
     [Pjax]
-    public class HomeController : Controller
-    {
-        public IActionResult Index()
-        {
-            return View();
-        }
-    }
+     public IActionResult Index()
+     {
+         ViewData["Message"] = "View Index";
+         return View();
+     }
 ```
-##LICENSE 
+**LICENSE**
 MIT
 
