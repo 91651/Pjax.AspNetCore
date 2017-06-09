@@ -4,9 +4,14 @@
     <TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
     <Authors>LZH</Authors>
     <Company>LZH</Company>
-    <Description>Pjax for .net core mvc</Description>
+    <Description>Pjax for .net core mvc.
+Using cooperated with jQuery.pjax(https://github.com/defunkt/jquery-pjax).</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <PackageLicenseUrl />
+    <PackageProjectUrl>https://github.com/91651/Pjax.AspNetCore</PackageProjectUrl>
+    <Copyright>MIT</Copyright>
+    <PackageTags>aspnetcore, pjax, spa</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

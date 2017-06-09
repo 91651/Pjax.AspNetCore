@@ -30,6 +30,12 @@ Develop .net core application with Jquery.Pjax (https://github.com/defunkt/jquer
         {
             return View();
         }
+
+		[Pjax(false)]
+		public IActionResult View1()
+        {
+            return View1();
+        }
     }
 ```
 
