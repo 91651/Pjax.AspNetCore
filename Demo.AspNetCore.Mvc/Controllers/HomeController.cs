@@ -6,12 +6,12 @@ namespace Demo.AspNetCore.Mvc.Controllers
     //[Pjax]
     public class HomeController : Controller
     {
-        [Pjax]
         public IActionResult Index()
         {
             ViewData["Message"] = "View Index";
             return View();
         }
+
         [Pjax]
         public IActionResult View1()
         {
@@ -19,6 +19,7 @@ namespace Demo.AspNetCore.Mvc.Controllers
 
             return View();
         }
+
         [Pjax]
         public IActionResult View2()
         {
@@ -26,12 +27,28 @@ namespace Demo.AspNetCore.Mvc.Controllers
 
             return View();
         }
+
+        [Pjax(false)]
         public IActionResult View3()
         {
-            ViewData["Message"] = "View3 (No Pjax)";
+            ViewData["Message"] = "Pjax(false)";
 
             return View();
         }
 
+        public IActionResult View4()
+        {
+            ViewData["Message"] = "View4 (No Pjax)";
+
+            return View();
+        }
+
+        [Pjax]
+        public IActionResult View5()
+        {
+            ViewData["Message"] = "View5";
+
+            return RedirectToAction("View2");
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+@using Pjax.AspNetCore.Mvc
 @if (ViewBag.IsPjaxRequest ?? false)
 {
     <title>@ViewData["Title"]</title>
@@ -11,10 +12,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="x-pjax-version" content="@ViewData["PjaxVersion"]">
-   >
+    <meta http-equiv="x-pjax-version" content="@(ViewBag.PjaxVersion ?? PjaxConstants.PjaxVersionValue)">
     <title>@ViewData["Title"] - Demo.AspNetCore.Mvc</title>
-
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -45,7 +44,9 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="View1">View1</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="View2">View2</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="View3">View3(No Pjax)</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="View3">View3(false)</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="View4">View4(No Pjax)</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="View5">View5Redirect</a></li>
                 </ul>
             </div>
         </div>
