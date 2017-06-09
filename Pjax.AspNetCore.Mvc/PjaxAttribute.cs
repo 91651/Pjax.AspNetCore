@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace Pjax.AspNetCore.Mvc
@@ -10,6 +11,7 @@ namespace Pjax.AspNetCore.Mvc
             var pjaxController = (Controller)filterContext.Controller;
             var pjax = filterContext.HttpContext.Request.Headers[PjaxConstants.PjaxHeader];
             pjaxController.ViewBag.IsPjaxRequest = bool.TryParse(pjax, out var isPjaxRequest) && isPjaxRequest;
+            pjaxController.ViewBag.PjaxVersion = PjaxConstants.PjaxVersionValue;
         }
         public override void OnActionExecuted(ActionExecutedContext filterContext)
         {
@@ -21,7 +23,11 @@ namespace Pjax.AspNetCore.Mvc
             if (!filterContext.HttpContext.Response.Headers.ContainsKey(PjaxConstants.PjaxUrl))
             {
                 var url = filterContext.HttpContext.Request.Path.Value;
-                filterContext.HttpContext.Response.Headers.Add("X-PJAX-URL", url);
+                filterContext.HttpContext.Response.Headers.Add(PjaxConstants.PjaxUrl, url);
+            }
+            if (!filterContext.HttpContext.Response.Headers.ContainsKey(PjaxConstants.PjaxVersion))
+            {
+                filterContext.HttpContext.Response.Headers.Add(PjaxConstants.PjaxVersion, PjaxConstants.PjaxVersionValue);
             }
 
         }
