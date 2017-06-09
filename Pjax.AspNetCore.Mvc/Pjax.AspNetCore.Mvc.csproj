@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
     <Authors>LZH</Authors>
     <Company>LZH</Company>
     <Description>Pjax for .net core mvc</Description>
